@@ -9,12 +9,12 @@ int main() {
     printf("Enter second number: ");
     scanf("%f", &num2);
 
-    printf("\nSum = %.2f", num1 + num2);
-    printf("\nDifference = %.2f", num1 - num2);
-    printf("\nProduct = %.2f", num1 * num2);
+    printf("\nSum = %f", num1 + num2);
+    printf("\nDifference = %f", num1 - num2);
+    printf("\nProduct = %f", num1 * num2);
 
     if (num2 != 0)
-        printf("\nQuotient = %.2f", num1 / num2);
+        printf("\nQuotient = %f", num1 / num2);
     else
         printf("\nQuotient = Cannot divide by zero");
 
