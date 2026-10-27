@@ -1,4 +1,3 @@
-```c
 #include <stdio.h>
 
 int findPivotIndex(int arr[], int n) {
@@ -35,4 +34,3 @@ int main() {
 
     return 0;
 }
-```
